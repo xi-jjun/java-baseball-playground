@@ -21,7 +21,7 @@ class StringCalculatorTest {
 	@Test
 	void multiply() {
 		String actual = calculator.multiply(3, 6);
-		assertThat(actual).isEqualTo("18");
+		assertThat(actual).isEqualTo("19");
 	}
 
 	@ParameterizedTest
