@@ -18,6 +18,12 @@ class StringCalculatorTest {
 		assertThat(actual).isEqualTo("3");
 	}
 
+	@Test
+	void multiply() {
+		String actual = calculator.multiply(3, 6);
+		assertThat(actual).isEqualTo("18");
+	}
+
 	@ParameterizedTest
 	@CsvSource(
 			value = {"1 + 2 : 3",
