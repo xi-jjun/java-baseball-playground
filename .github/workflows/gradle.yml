@@ -9,7 +9,10 @@ name: Java gradlew clean test
 
 on:
   push:
-    branches: [ "before-feedback" ]
+    branches:
+      - 'main'
+      - 'before-feedback'
+      - 'github-actions-test'
   pull_request:
     branches: [ "main" ]
 
